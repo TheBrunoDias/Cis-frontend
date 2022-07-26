@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary-100: #0b5351;
+    --color-primary-50: #1ca78c;
+    --color-primary-30: #38c7ab;
+
+    --color-secondary-100: #084c61;
+    --color-secondary-50: #00939f;
+    --color-secondary-30: #29bcc8;
+
+    --color-dark-darker: #1a1a1a;
+    --color-dark-main: #333333;
+    --color-dark-lighter: #606060;
+
+    --color-light-darker: #9e9e9e;
+    --color-light-main: #dddddd;
+    --color-light-lighter: #ffff;
+  }
+}
+
+@layer components {
+  div.calendar .fc-view-harness.fc-view-harness-active {
+    max-height: 75vh;
+  }
+}
